@@ -79,7 +79,11 @@ class Intern implements IEmployee
 public class LiskovSubstutionPrinciple {
 
 	public static void main(String[] args) {
-	
+	List<IEmployee> employeeList=new ArrayList<>();
+	employeeList.add(new MLS(5,"xyz"));
+	employeeList.add(new MTS(6,"ABC"));
+	employeeList.add(new Intern(10,"ASD"));
+
 
 	}
 
