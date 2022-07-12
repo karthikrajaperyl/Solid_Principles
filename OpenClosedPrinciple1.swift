@@ -39,14 +39,13 @@ var cuboid1=Cuboid(length:4,breadth:4,height:4)
 var cuboid2=Cuboid(length:5,breadth:5,height:5)
 var prism1=Prism(sides:3,height:3)
 var prism2=Prism(sides:2,height:2)
-var geoObject=Geo_Object()
-geoObject=cuboid1
+var geoObject:Geo_Object=Cuboid(length:4,breadth:4,height:4)
 print("Volume of cuboid1-\(geoObject.getVolume())")
-geoObject=cuboid2
+geoObject=Cuboid(length:5,breadth:5,height:5)
 print("Volume of cuboid2-\(geoObject.getVolume())")
-geoObject=prism1
+geoObject=Prism(sides:3,height:3)
 print("Volume of Prism1-\(geoObject.getVolume())")
-geoObject=prism2
+geoObject=Prism(sides:2,height:2)
 print("Volume of Prism2-\(geoObject.getVolume())")
 //let cuboidArray=[cuboid1,cuboid2]
 //let prismArray=[prism1,prism2]
