@@ -35,10 +35,6 @@ class Prism :Geo_Object
      }
 }
 
-var cuboid1=Cuboid(length:4,breadth:4,height:4)
-var cuboid2=Cuboid(length:5,breadth:5,height:5)
-var prism1=Prism(sides:3,height:3)
-var prism2=Prism(sides:2,height:2)
 var geoObject:Geo_Object=Cuboid(length:4,breadth:4,height:4)
 print("Volume of cuboid1-\(geoObject.getVolume())")
 geoObject=Cuboid(length:5,breadth:5,height:5)
